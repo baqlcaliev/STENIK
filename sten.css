@@ -1,0 +1,179 @@
+/*************************************NAVBARRRR*****************************************************/
+
+.nav {
+    height: 100px;
+}
+
+.navbar-brand {
+    height: auto;
+    display: inline-block;
+    padding: 0px;
+}
+
+.navbar-right {
+    height: auto;
+    display: inline-block;
+    padding: 0px;
+    float: right;
+}
+
+.navbar-brand img {
+    background-color: hotpink;
+}
+
+.navbar .navbar-collapse {
+    border: 1px solid black;
+    font-family: Brunoace, sans-serif;
+    background-color: #FFFFFF;
+}
+
+.navbar-brand {
+    height: 45px;
+}
+
+a {
+    color: #2E80B6 !important;
+}
+
+a:hover {
+    color: #E8B07A !important;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    background-color: white;
+    height: 52px;
+}
+
+.navbar .navbar-collapse ul li {
+    height: 57px;
+    background-color: white;
+    color: black;
+}
+
+.navbar .navbar-collapse ul li a {
+    color: black !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar .navbar-collapse ul li a:hover {
+    color: #2E80B6 !important;
+}
+
+.navbar-default {
+    background-color: white;
+    border-color: white;
+}
+
+
+/*************************************NAVBAR*****************************************************/
+
+
+/*************************************CAROUSEL*****************************************************/
+
+.item {
+    display: inline;
+}
+
+.item img {
+    max-height: 463px;
+    min-height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+
+#carousel {
+    margin-top: 192px;
+}
+
+.carousel-indicators li {
+    width: 55px;
+    border-radius: 2px;
+}
+
+.carousel-indicators .active {
+    width: 55px;
+    background-color: #fff;
+}
+
+.carousel-control {
+    width: 2%;
+}
+
+.glyphicon-chevron-left:before {
+    content: "\e079";
+}
+
+.glyphicon-chevron-right:before {
+    content: "\e080";
+}
+
+
+/*************************************END OF CAROUSEL*****************************************************/
+
+
+/*********MAIN********/
+
+.floatLeft {
+    float: left;
+    margin: 2px;
+}
+
+.floatRight {
+    float: right;
+}
+
+.disscount {
+    border: 2px solid red;
+}
+
+.text-pink {
+    color: hotpink;
+    font-weight: bold;
+}
+
+.pinkDisscount {
+    display: inline-block;
+    background-color: hotpink;
+    padding: 0px 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.page-header {
+    text-align: center;
+}
+
+.panel-body h3 {
+    margin-top: 0px;
+}
+
+.caption {
+    margin-top: -100px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.67);
+    width: 78%;
+    color: white;
+}
+
+.disscount .pinkDisscount {
+    display: inline-block;
+    background-color: hotpink;
+    padding: 0px 5px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: -19px;
+    right: 0px;
+}
+
+.footer {
+    background-color: #eee;
+}
+
+.footer h1 {
+    margin-top: 5px;
+    font-size: 33px;
+}
