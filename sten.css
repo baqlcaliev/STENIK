@@ -1,5 +1,20 @@
 /*************************************NAVBARRRR*****************************************************/
 
+.firstDiv {
+    overflow: auto;
+}
+
+.firstDiv a,
+.firstDiv p,
+.firstDiv span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.firstDiv span {
+    float: right;
+}
+
 .nav {
     height: 100px;
 }
@@ -17,18 +32,10 @@
     float: right;
 }
 
-.navbar-brand img {
-    background-color: hotpink;
-}
-
 .navbar .navbar-collapse {
     border: 1px solid black;
-    font-family: Brunoace, sans-serif;
+    font-family: Bruno Ace, sans-serif;
     background-color: #FFFFFF;
-}
-
-.navbar-brand {
-    height: 45px;
 }
 
 a {
@@ -116,6 +123,10 @@ a:hover {
 
 /*********MAIN********/
 
+.icon-border img {
+    width: 100%;
+}
+
 .floatLeft {
     float: left;
     margin: 2px;
@@ -150,12 +161,24 @@ a:hover {
     margin-top: 0px;
 }
 
+.figure-caption {
+    background-color: #ebc8cc57;
+}
+
+.figure-caption div {
+    padding: 5px;
+}
+
 .caption {
     margin-top: -100px;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.67);
     width: 78%;
     color: white;
+}
+
+.caption div {
+    padding: 10px;
 }
 
 .disscount .pinkDisscount {
