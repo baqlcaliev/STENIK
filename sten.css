@@ -2,6 +2,7 @@
 
 .firstDiv {
     overflow: auto;
+    margin: 5px 0px;
 }
 
 .firstDiv a,
@@ -9,10 +10,13 @@
 .firstDiv span {
     display: inline-block;
     vertical-align: middle;
+    float: none;
+    margin: 0px;
 }
 
 .firstDiv span {
     float: right;
+    margin: 14px 0px;
 }
 
 .nav {
