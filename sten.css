@@ -100,7 +100,7 @@ a:hover {
 }
 
 .carousel-indicators li {
-    width: 55px;
+    width: 50px;
     border-radius: 2px;
 }
 
@@ -204,4 +204,16 @@ a:hover {
 .footer h1 {
     margin-top: 5px;
     font-size: 33px;
+}
+
+@media(max-width:425px) {
+    .disscount .img-responsive,
+    .disscount .caption {
+        width: 100%
+    }
+    .disscount .caption {
+        margin-top: 0px;
+        position: relative;
+        padding: 10px 0px;
+    }
 }
